@@ -1,0 +1,22 @@
+{
+  "name": "js-loader",
+  "version": "1.0.0",
+  "description": "Loader",
+  "main": "gulpfile.js",
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.8.2",
+    "gulp": "^3.9.0",
+    "gulp-jscs": "^2.0.0",
+    "gulp-jscs-stylish": "^1.1.2",
+    "gulp-notify": "^2.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^1.4.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/studiometa/js-loader.git"
+  },
+  "author": "Studio Meta",
+  "license": "MIT"
+}
