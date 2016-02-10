@@ -182,9 +182,10 @@
 		<script defer src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 		<script defer src="./dist/lazy.min.js"></script>
 		<script defer>
-		document.addEventListener('DOMContentLoaded', function() {
+		window.addEventListener('load', function() {
 
 			var lazy = new Lazy();
+			lazy.init();
 
 		});
 		</script>
