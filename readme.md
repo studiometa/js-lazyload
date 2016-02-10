@@ -42,4 +42,8 @@ var lazy = new Lazy({
 	onSuccess: function() {},
 	successClass: 'is-loaded'
 });
+
+window.addEventListener('load', function() {
+	lazy.init();
+});
 ```
